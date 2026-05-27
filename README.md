@@ -44,6 +44,27 @@ Retail organizations often deal with:
 
 This project solves those issues by converting raw operational data into a professional analytics dashboard.
 
+
+## Dashboard Preview
+
+The Power BI dashboard provides interactive visualizations and key retail business insights, including sales performance, profit analysis, order trends, discounts, and product category performance.
+
+![Retail Sales Dashboard](/screenshots/dashboard.png)
+
+---
+
+## Key Insights from the Dashboard
+
+- Total Sales Analysis
+- Total Profit Tracking
+- Order Performance Monitoring
+- Profit Margin Analysis
+- Product Category Insights
+- Discount Impact Analysis
+- Cleaned and Modeled Retail Dataset
+- Interactive Power BI Visualizations
+
+  
 ---
 
 # Tools & Technologies Used

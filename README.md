@@ -104,8 +104,6 @@ The dataset underwent multiple transformation stages.
 
 Unused and redundant columns were removed to improve model efficiency and dashboard performance.
 
-### Screenshot
-
 ![Extra Column Removed](screenshots/extra_column_removed.png)
 
 ---
@@ -113,8 +111,6 @@ Unused and redundant columns were removed to improve model efficiency and dashbo
 ## Cleaning Department Column
 
 The department column contained inconsistent and dirty values which were cleaned and standardized.
-
-### Screenshot
 
 ![Cleaned Department Column](screenshots/cleaned_department_col.png)
 
@@ -124,7 +120,6 @@ The department column contained inconsistent and dirty values which were cleaned
 
 State values were standardized to maintain consistency across geographic reporting.
 
-### Screenshot
 
 ![Cleanup State Column](screenshots/cleanup_state_col.png)
 
@@ -134,7 +129,6 @@ State values were standardized to maintain consistency across geographic reporti
 
 Country naming inconsistencies were corrected by replacing variations with a standardized value.
 
-### Screenshot
 
 ![Replace With USA](screenshots/replace_with_USA.png)
 
@@ -144,7 +138,6 @@ Country naming inconsistencies were corrected by replacing variations with a sta
 
 Leading/trailing spaces and inconsistent formatting were removed using trim and clean operations.
 
-### Screenshot
 
 ![Product and Category Trim & Clean](screenshots/product_and_category_trimandclean.png)
 
@@ -154,7 +147,6 @@ Leading/trailing spaces and inconsistent formatting were removed using trim and 
 
 Order statuses were standardized to improve reporting accuracy.
 
-### Screenshot
 
 ![Order Status Column Cleaned](screenshots/order_status_column_cleaned.png)
 
@@ -164,7 +156,6 @@ Order statuses were standardized to improve reporting accuracy.
 
 Discount-related values were reviewed and transformed for accurate calculations.
 
-### Screenshot
 
 ![Discount Column](screenshots/discount1_column.png)
 
@@ -173,8 +164,6 @@ Discount-related values were reviewed and transformed for accurate calculations.
 ## Electronics Category Standardization
 
 The electronics category data was cleaned and standardized to maintain consistency in category-level reporting and analysis.
-
-### Screenshot
 
 ![Category Electronics](screenshots/category_electronics.png)
 
@@ -191,7 +180,6 @@ The model enables:
 - Accurate aggregations
 - Scalable reporting
 
-### Screenshot
 
 ![Model View](screenshots/model_view.png)
 
@@ -213,8 +201,6 @@ This measure calculates overall revenue generated across all orders.
 Total Sales = SUM(Orders[Sales])
 ```
 
-### Screenshot
-
 ![Total Sales Measure](screenshots/total_sales_measure.png)
 
 ---
@@ -229,7 +215,6 @@ Calculates overall profit generated from all transactions.
 Total Profit = SUM(Orders[Profit])
 ```
 
-### Screenshot
 
 ![Total Profit Measure](screenshots/total_profit_measure.png)
 
@@ -245,8 +230,6 @@ Tracks the total number of orders processed.
 Total Orders = COUNT(Orders[Order ID])
 ```
 
-### Screenshot
-
 ![Total Orders Measure](screenshots/total_orders_measure.png)
 
 ---
@@ -261,8 +244,6 @@ Calculates business profitability percentage.
 Profit Margin = DIVIDE([Total Profit], [Total Sales], 0)
 ```
 
-### Screenshot
-
 ![Profit Margin Measure](screenshots/profit_margin_measure.png)
 
 ---
@@ -271,7 +252,6 @@ Profit Margin = DIVIDE([Total Profit], [Total Sales], 0)
 
 Additional KPIs and calculations were created to enhance reporting capabilities.
 
-### Screenshot
 
 ![Measures](screenshots/measures.png)
 
